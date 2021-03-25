@@ -8,9 +8,37 @@
   <script src="js/scripts.js"></script>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <title>Document</title>
+  <title>Celebrity Dating Quiz</title>
 </head>
 <body>
-  
+  <div class="container">
+  <h1>Celebrity Dating Quiz</h1>
+  <div>
+    <form id="formOne">
+      <div class="form-group">
+        <label for="sport">What's your favorite sport?</label>
+        <select class="form-control" id="sport">
+          <option value="1">Soccer</option>
+          <option value="2">Football</option>
+          <option value="3">Baseball</option>
+          <option value ="4">Basketball</option>
+        </select>
+      </div>
+      <div>
+        <label for="movie">What's your favorite movie?</label>
+        <select class="form-control" id="movie">
+          <option value="1">The Dark Knight</option>
+          <option value="2">The Shining</option>
+          <option value="3">The Notebook</option>
+          <option value="4">Step Brothers</option>
+        </select>
+      </div>
+      <button type="submit" id="submit-button">Match Me!</button>
+    </form>
+  </div>
+  <div class="hide">
+    <p>Your Celebrity Match is <span id="result"></span>!</p>
+  </div>
+</div>
 </body>
 </html>
